@@ -1,0 +1,121 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400|actor:400);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Actor', sans-serif;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(206, 206, 206);
+}
+.content{
+    background-color: rgb(224, 223, 223);
+    height: 600px;
+    width: 400px;
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 50px;
+    
+}
+.header{
+    transform: translate(-80px,-60px);
+}
+
+
+.topic{
+    width: 80%;
+    
+
+}
+input{
+    outline: none;
+}
+.enter{
+    width: 80%;
+    padding:12px 24px;
+}
+.btn{
+    width:80%;
+    padding:12px;
+    border-radius:10px;
+    border:2px solid rgb(169, 168, 168);
+    background-color: rgb(139, 231, 235);
+    font-size:15px;
+    font-weight: 600;
+    cursor:pointer;
+    color:rgb(74, 74, 74);
+    margin-top: 20px;
+    
+}
+.entries{
+    transform: translate(-10px,-10px);
+    background-color: transparent;
+    padding: 12px 29px;
+   width: 150%;
+    top:1px;
+    border-radius: 10px;
+    border:1px solid black;
+    
+}
+.underline{
+    margin-top: 30px;
+}
+.checkforgot input[type="checkbox"] {
+    margin-right: -55px;
+}
+.checkforgot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    trasform: translate(-40px,-20px);
+}
+.remember{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    margin-left:-10px;
+     width: 100%;
+     transform: translate(-120px,130px);
+
+}
+.social-icons{
+    display: flex;
+    margin-top: 40px;
+
+
+}
+a{
+    color:rgb(167, 90, 206);
+    text-decoration: none;
+    
+}
+a:hover{
+    border-bottom: 1px solid black;
+    border-radius: 50px;
+    padding:2px;
+    background-color:rgb(244, 225, 251);
+}
+
+.icon a{
+    display: flex;
+    height: 50px;
+    border: 2px solid rgb(168, 148, 148);
+    border-radius: 10px;
+    padding: 1px 12px;
+    margin-right: 20px;
+    
+}
+.end p{
+    transform: translate(1px,80px);
+}
